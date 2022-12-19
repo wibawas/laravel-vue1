@@ -1,0 +1,11 @@
+1 - SELECT * FROM merk
+2 - SELECT * FROM obat
+3 - SELECT * FROM `obat` WHERE harga > 10000
+4 - SELECT * FROM `obat` WHERE id_merk = 1
+5 - SELECT * FROM obat WHERE nama LIKE '%ol'
+6 - SELECT kadaluarsa FROM obat
+7 - SELECT * FROM `merk` WHERE id <=5
+8 - SELECT * FROM `obat` WHERE jenis LIKE '%Cair%'
+9 - INSERT INTO obat Value
+    ('','Parabex','Cair','7630','2024-04-20','1')
+10 - SELECT * FROM `merk` WHERE merk = 'kalbe'
