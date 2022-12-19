@@ -1,0 +1,15 @@
+1 - UPDATE obat
+SET nama = 'Amobarbital'
+WHERE id = 10;
+
+2 - UPDATE obat
+SET jenis = 'Tablet'
+WHERE id = 10;
+
+3 - UPDATE obat
+SET nama = 'Cephalexin',jenis = 'Tablet'
+WHERE id = 9;
+
+4 - DELETE FROM obat WHERE nama ='Tolak Angin';
+
+5 - DELETE FROM obat WHERE id =5;
