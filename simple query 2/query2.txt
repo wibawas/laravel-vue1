@@ -1,0 +1,10 @@
+1 - SELECT * FROM obat ORDER by harga DESC
+2 - SELECT * FROM obat ORDER by nama ASC
+3 - SELECT * FROM `obat` WHERE nama LIKE '%ol%'
+4 - SELECT * FROM `merk` WHERE merk LIKE '%n%'
+5 - SELECT id_merk,sum(harga) as total FROM obat GROUP BY id_merk
+6 - SELECT jenis , SUM(harga) as total FROM obat GROUP BY jenis
+7 - SELECT id_merk,sum(harga) as total FROM obat GROUP BY id_merk ASC
+8 - SELECT kadaluarsa,sum(harga) as total FROM obat GROUP BY kadaluarsa
+9 - SELECT id_merk,SUM(harga) as total FROM obat WHERE id_merk <= 3 GROUP BY id_merk ORDER BY id_merk ASC
+10 - SELECT id_merk,sum(harga) as total FROM obat GROUP BY id_merk DESC
